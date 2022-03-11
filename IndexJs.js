@@ -25,3 +25,10 @@ function DeleteById(id){
 }
 
 var id = 1;
+
+var input = document.getElementById("inputItem");
+input.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+        AddItem();
+    }
+});
