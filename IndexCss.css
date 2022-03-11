@@ -1,0 +1,42 @@
+body{
+    background-image: url("desktop-naruto-wallpaper-ixpap-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    width: 70vw;
+    height: 80vh;
+    background-color: ghostwhite;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    padding: 5px;
+}
+.buttons{
+    height: 7vh;
+    background-color: cadetblue;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+#inputItem{
+    width: 55vw;
+}
+.addBtn{
+    margin-right: 5px;
+}
+.list{
+    margin-top: 4px;
+    height: 70vh;
+    background-color: lightblue;
+    padding: 5px;
+    overflow-y:auto;
+}
+.checkbox{
+    width: 37px;
+    height: 37px;
+    margin-top: 0px;
+}
+.itemText{
+    margin-left: 27px;
+}
